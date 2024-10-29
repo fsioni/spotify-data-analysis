@@ -3,8 +3,9 @@
 - Julien Ballouard p2006861
 - Fares Sioni p1907037
 
-## Use Docker
+## Use Venv
 
-- `docker compose build` to build the container
-- `docker compose up -d` to lauch the container (Dash is now available at http://localhost:8050)
-- `docker compose down` to stop the container
+- `python3 -m venv venv`
+- `source venv/bin/activate`
+- `pip install -r requirements.txt`
+- `python app.py`
