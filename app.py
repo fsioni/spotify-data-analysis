@@ -157,7 +157,7 @@ app.layout = html.Div(
             },
             children=[
                 html.H1(
-                    "Analyse Avancée des Tendances Musicales Spotify",
+                    "Analyse des tendances Spotify",
                     style={'textAlign': 'center', 'marginBottom': '10px'}
                 ),
                 html.P(
@@ -253,7 +253,7 @@ app.layout = html.Div(
                 'color': COLORS['white'],
                 'marginTop': '30px'
             },
-            children=["© 2024 Analyse de données Spotify avec Dash"]
+            children=["p2006861 BALLOURD Julien & p1907037 SIONI Farès"]
         )
     ]
 )
