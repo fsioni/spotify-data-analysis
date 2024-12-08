@@ -153,7 +153,8 @@ app.layout = html.Div(
                 'backgroundColor': COLORS['background'],
                 'padding': '20px',
                 'color': COLORS['white'],
-                'boxShadow': '0 2px 4px rgba(0,0,0,0.1)'
+                'boxShadow': '0 2px 4px rgba(0,0,0,0.1)',
+                'borderRadius': '10px'
             },
             children=[
                 html.H1(
